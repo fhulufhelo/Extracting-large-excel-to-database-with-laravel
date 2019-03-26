@@ -8,3 +8,6 @@ Changes made from the original source:
 run migrate command import update schema
  run queue: work command before importing file
 Alternative you can install Supervisor on a server as explan here [https://laravel.com/docs/5.7/queues#supervisor-configuration](https://laravel.com/docs/5.7/queues#supervisor-configuration)
+
+#### Email
+i used mailtrap
