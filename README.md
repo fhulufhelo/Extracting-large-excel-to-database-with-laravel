@@ -9,7 +9,7 @@ Changes made from the original source:
 QUEUE_CONNECTION=database
 
 
-run migrate command import update schema which al so include two cron job table (**jobs**, **failed_jobs**)
+run migrate command import update schema which also include two cron job table (**jobs**, **failed_jobs**)
 
  run queue: work command before importing file
  
@@ -17,3 +17,5 @@ Alternative you can install Supervisor on a server as explan here [https://larav
 
 #### Email
 i used mailtrap
+
+You can configure yours on evn file to see email coming for each user
