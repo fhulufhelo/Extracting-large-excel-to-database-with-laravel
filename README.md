@@ -4,8 +4,8 @@ Changes made from the original source:
 
 2 database: column constraint was not aligned with data from the file, example, some file column contain some  characters that are restricted from  on the database column
 
-#### Cron job
-run migrate command import update schema
+#### Cron job (database)
+run migrate command import update schema which al so include two cron job table (**jobs**, **failed_jobs**)
  run queue: work command before importing file
 Alternative you can install Supervisor on a server as explan here [https://laravel.com/docs/5.7/queues#supervisor-configuration](https://laravel.com/docs/5.7/queues#supervisor-configuration)
 
